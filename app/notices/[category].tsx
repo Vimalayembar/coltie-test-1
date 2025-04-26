@@ -7,6 +7,8 @@ import {
   TextInput,
   ActivityIndicator,
   ToastAndroid,
+  Platform,
+  Alert,
 } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
@@ -32,11 +34,19 @@ export default function NoticesScreen() {
   // Paginate notices
   const paginatedNotices = filteredNotices.slice(0, page * ITEMS_PER_PAGE);
 
+  const showToast = (message: string) => {
+    if (Platform.OS === 'android') {
+      ToastAndroid.show(message, ToastAndroid.SHORT);
+    } else {
+      Alert.alert('Notice', message);
+    }
+  };
+
   const handleLoadMore = useCallback(() => {
     if (loading || paginatedNotices.length >= filteredNotices.length) return;
 
     setLoading(true);
-    ToastAndroid.show('Fetching more notices...', ToastAndroid.SHORT);
+    showToast('Fetching more notices...');
     
     // Simulate API call delay
     setTimeout(() => {
@@ -55,6 +65,7 @@ export default function NoticesScreen() {
     return (
       <View style={styles.footerLoader}>
         <ActivityIndicator size="small" color="#0000ff" />
+        <Text style={styles.loadingText}>Fetching more notices...</Text>
       </View>
     );
   };
@@ -130,5 +141,10 @@ const styles = StyleSheet.create({
   footerLoader: {
     paddingVertical: 20,
     alignItems: 'center',
+  },
+  loadingText: {
+    marginTop: 8,
+    color: '#666',
+    fontSize: 14,
   },
 }); 
