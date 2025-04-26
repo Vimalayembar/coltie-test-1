@@ -21,6 +21,8 @@ export default function NoticesScreen() {
   const [searchQuery, setSearchQuery] = useState('');
   const [page, setPage] = useState(1);
   const [loading, setLoading] = useState(false);
+  // Track read/unread state for each notice
+  const [readNotices, setReadNotices] = useState<Set<string>>(new Set());
 
   // Filter notices by category and search query
   const filteredNotices = mockNotices.filter(
@@ -56,8 +58,9 @@ export default function NoticesScreen() {
   }, [loading, paginatedNotices.length, filteredNotices.length]);
 
   const handleNoticePress = (notice: Notice) => {
-    // Handle notice press - you can navigate to detail screen here
-    console.log('Notice pressed:', notice);
+    // Mark notice as read
+    setReadNotices((prev) => new Set(prev).add(notice.id));
+    // You can also navigate to detail screen here if needed
   };
 
   const renderFooter = () => {
@@ -89,7 +92,10 @@ export default function NoticesScreen() {
       <FlatList
         data={paginatedNotices}
         renderItem={({ item }) => (
-          <NoticeCard notice={item} onPress={handleNoticePress} />
+          <NoticeCard
+            notice={{ ...item, isUnread: !readNotices.has(item.id) }}
+            onPress={handleNoticePress}
+          />
         )}
         keyExtractor={(item) => item.id}
         onEndReached={handleLoadMore}
