@@ -1,0 +1,310 @@
+[
+    {
+      "id": "1",
+      "title": "Mid-term Examination Schedule",
+      "subtitle": "Important Update",
+      "description": "The mid-term examinations will commence from next week. Please check the detailed schedule attached. All students are required to bring their ID cards and hall tickets.",
+      "category": "Academics",
+      "dateTime": "2024-04-26T10:00:00",
+      "hasAttachment": true,
+      "isUnread": true
+    },
+    {
+      "id": "2",
+      "title": "Library Maintenance Notice",
+      "description": "The central library will be under maintenance this weekend. All services will be temporarily unavailable.",
+      "category": "Academics",
+      "dateTime": "2024-04-25T15:30:00",
+      "hasAttachment": false,
+      "isUnread": false
+    },
+    {
+      "id": "3",
+      "title": "Sports Day Event",
+      "subtitle": "Annual Sports Meet",
+      "description": "Join us for the annual sports day celebration. Various sports competitions will be held throughout the day.",
+      "category": "Events",
+      "dateTime": "2024-04-24T09:00:00",
+      "hasAttachment": true,
+      "isUnread": true
+    },
+    {
+      "id": "4",
+      "title": "Fee Payment Deadline",
+      "description": "Last date for fee payment is approaching. Please ensure timely payment to avoid any inconvenience.",
+      "category": "Finance",
+      "dateTime": "2024-04-23T14:00:00",
+      "hasAttachment": false,
+      "isUnread": true
+    },
+    {
+      "id": "5",
+      "title": "New Course Registration",
+      "subtitle": "Open for All Students",
+      "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+      "category": "Academics",
+      "dateTime": "2024-04-22T11:00:00",
+      "hasAttachment": true,
+      "isUnread": false
+    },
+    {
+        "id": "6",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "7",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "8",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "9",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "10",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "11",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "12",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "13",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "14",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "15",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "16",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "17",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "18",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "19",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "20",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "21",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "22",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "23",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "24",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "25",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "26",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "27",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "28",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "29",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },    {
+        "id": "30",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      },
+      {
+        "id": "31",
+        "title": "New Course Registration",
+        "subtitle": "Open for All Students",
+        "description": "Registration for new elective courses is now open. Please visit the academic portal to register.",
+        "category": "Academics",
+        "dateTime": "2024-04-22T11:00:00",
+        "hasAttachment": true,
+        "isUnread": false
+      }
+  ]
+  
