@@ -58,15 +58,26 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Navigation</ThemedText>
-        <Link
-          href="/about"
-          style={[
-            styles.button,
-            { color: theme === "light" ? Colors.light.text : Colors.dark.text },
-          ]}
-        >
-          Go to About screen
-        </Link>
+        <ThemedView style={styles.navigationContainer}>
+          <Link
+            href="/about"
+            style={[
+              styles.button,
+              { color: theme === "light" ? Colors.light.text : Colors.dark.text },
+            ]}
+          >
+            Go to About screen
+          </Link>
+          <Link
+            href="../notices/Academics"
+            style={[
+              styles.button,
+              { color: theme === "light" ? Colors.light.text : Colors.dark.text },
+            ]}
+          >
+            View Academic Notices
+          </Link>
+        </ThemedView>
       </ThemedView>
     </ParallaxScrollView>
   );
@@ -81,6 +92,10 @@ const styles = StyleSheet.create({
   stepContainer: {
     gap: 8,
     marginBottom: 8,
+  },
+  navigationContainer: {
+    flexDirection: "row",
+    gap: 16,
   },
   reactLogo: {
     height: 178,
