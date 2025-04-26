@@ -6,14 +6,13 @@ import {
   FlatList,
   TextInput,
   ActivityIndicator,
-  ToastAndroid,
   Platform,
-  Alert,
 } from 'react-native';
 import { useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { NoticeCard } from '../../components/NoticeCard';
 import { mockNotices, Notice } from '../../constants/mockNotices';
+import Toast from 'react-native-toast-message';
 
 const ITEMS_PER_PAGE = 10;
 
@@ -35,11 +34,12 @@ export default function NoticesScreen() {
   const paginatedNotices = filteredNotices.slice(0, page * ITEMS_PER_PAGE);
 
   const showToast = (message: string) => {
-    if (Platform.OS === 'android') {
-      ToastAndroid.show(message, ToastAndroid.SHORT);
-    } else {
-      Alert.alert('Notice', message);
-    }
+    Toast.show({
+      type: 'info',
+      text1: message,
+      position: 'bottom',
+      visibilityTime: 1500,
+    });
   };
 
   const handleLoadMore = useCallback(() => {
