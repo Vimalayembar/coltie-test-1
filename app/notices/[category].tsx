@@ -1,18 +1,17 @@
-import React, { useState, useCallback } from 'react';
-import {
-  View,
-  Text,
-  StyleSheet,
-  FlatList,
-  TextInput,
-  ActivityIndicator,
-  Platform,
-} from 'react-native';
-import { useLocalSearchParams } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
+import { useLocalSearchParams } from 'expo-router';
+import React, { useCallback, useState } from 'react';
+import {
+  ActivityIndicator,
+  FlatList,
+  StyleSheet,
+  Text,
+  TextInput,
+  View
+} from 'react-native';
+import Toast from 'react-native-toast-message';
 import { NoticeCard } from '../../components/NoticeCard';
 import { mockNotices, Notice } from '../../constants/mockNotices';
-import Toast from 'react-native-toast-message';
 
 const ITEMS_PER_PAGE = 10;
 
@@ -39,7 +38,7 @@ export default function NoticesScreen() {
     Toast.show({
       type: 'info',
       text1: message,
-      position: 'bottom',
+      position: 'top',
       visibilityTime: 1500,
     });
   };
